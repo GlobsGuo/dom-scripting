@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Animation Presentation</title>
+        <link rel="stylesheet" media="screen" href="styles/ani.css" />
+    </head>
+
+    <body>
+        <button onclick='moveElement("Animator", 800, 500, 800)'>
+            Start
+        </button>
+        <button>Stop</button>
+
+        <div>
+            <data
+                id="Animator"
+                class="pos"
+                style="left: 10px;top: 10px;right: 10px;"
+                >Animator</data
+            >
+        </div>
+        <script src="scripts/addLoadEvent.js"></script>
+        <script src="scripts/moveElem.js"></script>
+    </body>
+</html>
